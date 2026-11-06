@@ -1,0 +1,15 @@
+PLANTILLA DE MICROFASE · MATERIAL DIDÁCTICO
+
+ID y título:
+Objetivo observable:
+Entradas necesarias:
+Trabajo concreto:
+Resultado esperado:
+Cómo comprobarlo:
+Dependencias y dudas pendientes:
+Estado: Pendiente / En curso / Por revisar / Cerrada
+Evidencia observada (rellenar después de comprobar):
+Decisión de revisión humana:
+
+Ejemplo ficticio: MF-01 · Confirmar espacio y herramientas.
+No marques «Cerrada» una tarea que solo ha sido propuesta por la IA.
