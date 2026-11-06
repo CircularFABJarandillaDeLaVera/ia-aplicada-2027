@@ -1,0 +1,38 @@
+.cf-course h1,.cf-course h2,.cf-course h3{font-family:var(--cf-font-heading)}
+.cf-course p,.cf-course li{line-height:1.6}
+.cf-course a:not(.cf-button):not(.cf-brand):not(.cf-nav__link){color:var(--cf-color-accent);font-weight:750;text-underline-offset:.2em}
+.cf-course a:focus-visible,.copy-prompt:focus-visible{outline:3px solid var(--cf-color-focus);outline-offset:3px}
+.cf-course__main{padding-top:16px}
+.cf-center-hero__pattern{object-position:center 42%}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+.intro-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.intro-grid h2,.journey-card h3{margin:8px 0}
+.intro-grid p,.journey-card p{color:var(--cf-color-text-muted);margin:0 0 14px}
+.eyebrow,.step{color:var(--cf-color-accent);font-size:.8rem;font-weight:850;letter-spacing:.05em;text-transform:uppercase}
+.journey-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.journey-card{display:flex;flex-direction:column;gap:8px;min-width:0}
+.journey-card p{flex:1}
+.journey-card.ready{border-color:var(--cf-color-accent)}
+.journey-card .cf-button{align-self:flex-start}
+.theory-layout,.practice-layout{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:22px;align-items:start}
+.theory-content,.practice-content{min-width:0}
+.theory-content section,.practice-content section{margin-bottom:20px;scroll-margin-top:18px}
+.theory-content .cf-card,.practice-content .cf-card{padding:24px}
+.theory-content h2,.practice-content h2{margin:0 0 12px;font-size:1.45rem}
+.theory-content h3,.practice-content h3{margin:18px 0 8px}
+.side-nav{position:sticky;top:16px;display:grid;gap:8px}
+.side-nav a{display:block;padding:6px 0}
+.practice-content pre{background:var(--cf-color-surface-muted);border:1px solid var(--cf-color-border);border-radius:12px;overflow-x:auto;white-space:pre-wrap;overflow-wrap:anywhere;padding:18px;font-size:.92rem;line-height:1.5}
+.practice-content code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.practice-content pre code::selection{background:var(--cf-color-accent);color:var(--cf-color-accent-text)}
+.prompt-block{position:relative}.copy-prompt{border:1px solid var(--cf-color-accent);border-radius:8px;background:var(--cf-color-surface);color:var(--cf-color-accent);font:700 .85rem var(--cf-font-label);padding:8px 12px;cursor:pointer}
+.practice-content blockquote{border-left:4px solid var(--cf-color-accent);margin:16px 0;padding:2px 16px;background:var(--cf-color-surface-muted)}
+.practice-content table{border-collapse:collapse;width:100%}.practice-content th,.practice-content td{border:1px solid var(--cf-color-border);padding:10px;text-align:left;vertical-align:top}
+.table-wrap{overflow-x:auto}.practice-content ul,.practice-content ol{padding-left:22px}
+.practice-links{display:flex;flex-wrap:wrap;gap:12px}
+.material-list{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}
+.example-sheet{background:var(--cf-color-surface-muted);border:1px solid var(--cf-color-border);border-radius:12px;padding:8px 18px}
+.example-sheet p{margin:10px 0}
+.case-card fieldset{border:0;padding:0;margin:18px 0}.case-card legend{font-weight:800;margin-bottom:10px}.case-options{display:grid;gap:10px}.case-options button{font:inherit;text-align:left;border:1px solid var(--cf-color-border);border-radius:10px;background:var(--cf-color-surface);color:var(--cf-color-text);padding:12px 14px;cursor:pointer}.case-options button:hover,.case-options button[aria-pressed="true"]{border-color:var(--cf-color-accent);background:var(--cf-color-surface-muted)}.case-options button:focus-visible{outline:3px solid var(--cf-color-focus);outline-offset:2px}.case-feedback{border-left:4px solid var(--cf-color-accent);background:var(--cf-color-surface-muted);padding:12px 16px;margin:12px 0}.case-feedback[hidden]{display:none}
+@media(max-width:900px){.journey-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.theory-layout,.practice-layout{grid-template-columns:1fr}.side-nav{position:static;grid-row:1}}
+@media(max-width:600px){.intro-grid,.journey-grid{grid-template-columns:1fr}.cf-course .cf-topbar{gap:10px;flex-wrap:wrap}.cf-course .cf-nav--horizontal{order:3;flex-wrap:wrap}.cf-course .cf-center-hero__title{font-size:clamp(2.2rem,10vw,3rem);line-height:1.02;overflow-wrap:anywhere}.cf-course .cf-center-hero__subtitle{overflow-wrap:anywhere}.practice-content .cf-card,.theory-content .cf-card{padding:18px}.cf-course__main{gap:16px}}
