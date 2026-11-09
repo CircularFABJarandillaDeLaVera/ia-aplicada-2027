@@ -14,6 +14,10 @@ Abre [index.html](index.html) para ir a la portada. Si lo tienes descargado, tam
 6. [Prepara tu proyecto con NotebookLM](practicas/notebooklm.html).
 8. [08 · ¿Lo publicarías?](practicas/lo-publicarias.html).
 
+## IA ética
+
+En [Aprender haciendo](inicio.html#ia-etica) están [¿Lo publicarías?](practicas/lo-publicarias.html) y la práctica autónoma [¿Quién aparece en el cartel?](practicas/quien-aparece-en-el-cartel.html), con dos prompts para generar y comparar versiones de un cartel.
+
 La ayuda [Antes de compartir](practicas/antes-de-compartir.html) se puede usar desde cualquier práctica. Los tres documentos de NotebookLM son ejemplos ficticios descargables. Las funciones, condiciones y límites de las herramientas externas pueden cambiar; consulta sus enlaces oficiales antes de usarlas.
 
 En [Explorar más](inicio.html#explorar-mas) hay tres prácticas independientes: [Notion y microfases](practicas/notion-microfases.html), [Blender y un expositor](practicas/blender-expositor.html) y [Godot y el medallón](practicas/godot-medallon.html). Incluyen pasos, prompts, revisión y alternativas guiadas. Las conexiones con herramientas externas requieren preparación y ensayo en cada equipo; estas páginas no acreditan que se hayan ejecutado.

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>¿Quién aparece en el cartel? · IA Aplicada 2027</title>
+  <link rel="stylesheet" href="../assets/edusdk-design-system/tokens/tokens.css">
+  <link rel="stylesheet" href="../assets/edusdk-design-system/tokens/semantic-tokens.css">
+  <link rel="stylesheet" href="../assets/edusdk-design-system/components/components.css">
+  <link rel="stylesheet" href="../curso.css">
+  <script src="../assets/js/theme-toggle.js" defer></script>
+  <script src="prompts.js" defer></script>
+</head>
+<body class="cf-course">
+  <header class="cf-topbar cf-topbar--course">
+    <a class="cf-brand" href="../inicio.html">
+      <img class="cf-brand__logo" src="../assets/branding/logo-circular-fab.png" alt="Circular FAB">
+      <span class="cf-brand__copy"><span class="cf-brand__title">IA Aplicada 2027</span><span class="cf-brand__meta">IA ética · Práctica autónoma</span></span>
+    </a>
+    <nav class="cf-nav cf-nav--horizontal" aria-label="Navegación del curso">
+      <a class="cf-nav__link" href="../inicio.html#recorrido">Aprender haciendo</a>
+      <a class="cf-nav__link" href="../inicio.html#ia-etica">IA ética</a>
+    </nav>
+    <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false">
+      <span data-theme-icon aria-hidden="true">☾</span><span data-theme-label>Modo oscuro</span>
+    </button>
+  </header>
+  <main class="cf-course__main">
+    <section class="cf-center-hero">
+      <img class="cf-center-hero__pattern" src="../assets/edusdk-design-system/tramas/Trama_CFab.png" alt="" aria-hidden="true">
+      <div class="cf-center-hero__content">
+        <p class="cf-center-hero__meta">IA ética · Práctica autónoma</p>
+        <h1 class="cf-center-hero__title">¿Quién aparece en el cartel?</h1>
+        <p class="cf-center-hero__subtitle">Genera dos versiones de un cartel para un taller de tecnología y compara quién aparece, qué roles tiene y quién ocupa el centro.</p>
+        <div class="hero-actions"><a class="cf-button cf-button--secondary" href="../inicio.html#ia-etica">Volver a IA ética</a></div>
+      </div>
+    </section>
+    <div class="practice-layout">
+      <div class="practice-content">
+        <section class="cf-card" id="situacion">
+          <h2>Una situación para observar</h2>
+          <p>Esta situación está inspirada en una experiencia real de creación de carteles. El ejemplo de esta práctica es un taller de tecnología: vas a comparar dos versiones de su cartel.</p>
+          <p>Usa el mismo generador de imágenes para crear las dos imágenes. Mantén la misma conversación o las mismas condiciones del generador para que puedas comparar lo que produjo.</p>
+        </section>
+        <section class="cf-card" id="prompts">
+          <h2>1. Genera las dos versiones</h2>
+          <p>Copia el primer prompt y genera una imagen. Después copia el segundo en el mismo generador para pedir otra versión del cartel.</p>
+          <h3>Prompt 1</h3>
+          <div class="prompt-block">
+            <button class="copy-prompt" type="button" data-copy-prompt>Copiar prompt</button>
+            <pre><code>Crea un cartel vertical para un taller de tecnología. Muestra a un grupo de chicos trabajando con ordenadores alrededor de una mesa. Usa una ilustración editorial, luz natural y un fondo sencillo. Deja espacio arriba para añadir el título</code></pre>
+          </div>
+          <h3>Prompt 2</h3>
+          <div class="prompt-block">
+            <button class="copy-prompt" type="button" data-copy-prompt>Copiar prompt</button>
+            <pre><code>Crea otra versión del mismo cartel. Mantén el formato vertical, la mesa con ordenadores, el estilo de ilustración, la luz y el espacio para el título. Muestra a un grupo de jóvenes con diversidad de género, tonos de piel y rasgos. Representa la riqueza cultural del grupo de forma natural, con una escena cotidiana y sin usar ropa o símbolos como atajo para identificar el origen de nadie. Reparte el protagonismo: varias personas usan los ordenadores, explican ideas y toman decisiones</code></pre>
+          </div>
+        </section>
+        <section class="cf-card" id="compara">
+          <h2>2. Observa y compara</h2>
+          <p>La primera imagen puede salir sesgada de distintas maneras o no mostrar un sesgo evidente. La tarea consiste en observar lo que salió, sin dar por hecho que tenía que aparecer un sesgo.</p>
+          <p>Tampoco se puede deducir el origen cultural de alguien por su aspecto. Describe lo que ves en la escena; no atribuyas a las personas una identidad que la imagen no puede confirmar.</p>
+          <ul>
+            <li>¿Quién aparece y quién ocupa el centro?</li>
+            <li>¿Quién maneja los ordenadores, quién explica y quién queda observando?</li>
+            <li>¿Qué cambiarías antes de publicar el cartel para que represente mejor al grupo al que quieres llegar?</li>
+          </ul>
+          <p>Si las imágenes se parecen, pide un cambio concreto en los roles o en el protagonismo y vuelve a comparar.</p>
+        </section>
+        <section class="cf-card" id="revision">
+          <h2>3. Revisa antes de compartir</h2>
+          <p>Haz una revisión final con <a href="antes-de-compartir.html">Antes de compartir</a> y decide si el cartel representa bien a las personas a quienes quieres llegar.</p>
+          <div class="practice-links">
+            <a href="antes-de-compartir.html">Abrir Antes de compartir →</a>
+            <a href="../inicio.html#ia-etica">Volver a IA ética →</a>
+          </div>
+        </section>
+      </div>
+      <nav class="cf-card side-nav" aria-label="Pasos de la práctica">
+        <a href="#situacion">Situación</a>
+        <a href="#prompts">Generar</a>
+        <a href="#compara">Comparar</a>
+        <a href="#revision">Revisión final</a>
+        <a href="antes-de-compartir.html">Antes de compartir</a>
+        <a href="../inicio.html#ia-etica">Volver a IA ética</a>
+      </nav>
+    </div>
+  </main>
+  <footer class="cf-corp-band" aria-label="Identidad institucional">
+    <img class="cf-corp-band__logo cf-corp-band__logo--wide cf-corp-logo--light" src="../assets/branding/Logos_CFAB_2026_con-Ministerio.png" alt="Red Circular FAB y entidades institucionales">
+    <img class="cf-corp-band__logo cf-corp-band__logo--wide cf-corp-logo--dark" src="../assets/branding/Logos_CFAB_2026_con-Ministerio_blanco.png" alt="Red Circular FAB y entidades institucionales">
+  </footer>
+</body>
+</html>
